@@ -78,3 +78,53 @@ hr {
     
     margin-top: 20px;
 }
+
+main p{
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -242px;
+}
+
+.capitan{
+    position: relative;
+    top: 0;
+    height: 560px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .5s ease;
+    position: relative;
+    left: 44.99%;
+    width: 55%;
+    margin: 0;
+
+}
+
+.containerMCU::before{
+    border-bottom: 560px solid #151515;
+    border-right: 160px solid transparent;
+    content: "";
+    height: 0;
+    left: 44.99%;
+    position: absolute;
+    transition: .5s ease;
+    width: 0;
+    z-index: 1;
+    display: block;
+}
+
+.testo {
+    color: white;
+    font-size: 36px;
+    padding-left: 50px;
+    
+}
+
+.MCU {
+    display: flex;
+    align-items: center;
+}
+    
