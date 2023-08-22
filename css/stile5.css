@@ -70,13 +70,11 @@ header nav ul {
  header hr {
     width:auto;
     margin-top: 20px;
-   
 }
-.fumetti  {
-    background-color:rgba(25, 25, 47, 1);
-    border-radius: 30px;
-}
+
+
     
+
 
 
 main h1 {
@@ -86,12 +84,19 @@ main h1 {
     text-align: center;
     margin-top: -100px;
 }
+main h2 {
+    font-size: 50px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    
+}
 .bottoni {
     list-style-type: none;
     display: flex;
     gap: 75px;
     justify-content: center;
-    font-size: 14px;        
+    font-size: 14pt;        
     line-height: normal;
     padding-top: 134px;
     
@@ -102,10 +107,108 @@ main h1 {
     background-color: #3C3B6E;
     padding: 10px;
     border-radius: 30px;
-    
+}
+ p {
+    color: white;
+    font-size: 12pt;
+}    
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    grid-template-rows: 1fr ;
+    padding-top: 168px;
+}
+.content {
+    padding: 50px;
+    grid-column: 2;
+    grid-row: 1;
     
 }
 
+.testo {
+    grid-column: 1;
+    grid-row: 1;
+}
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    grid-template-rows: 1fr ;
+    padding-top: 168px;
+}
+.titolo2 p {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 15pt;
+    color: white;
+
+}
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    grid-template-rows: 1fr ;
+    padding-top: 110px;
+}
+
+.lista1 {
+    line-height: 26pt;
+    grid-column: 1;
+    grid-row: 1;
+    
+}
+.container2 img {
+    max-width: 80%;
+    width: 100%;
+    padding-top: 150px;
+}
+.immagini1 {
+    grid-column: 3 ;
+    grid-row: 1;
+    
+}
+.immagini2 {
+    grid-column:  4;
+    grid-row: 1;
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    grid-template-rows: 1fr ;
+    padding-top: 110px;
+}
+
+.lista2 {
+    line-height: 26pt;
+    grid-column: 3;
+    grid-row: 1;
+    
+}
+.container3 img {
+    max-width: 80%;
+    width: 100%;
+    padding-top: 150px;
+}
+.immagini3 {
+    grid-column: 1 ;
+    grid-row: 1;
+    
+}
+.immagini4 {
+    grid-column:  2;
+    grid-row: 1;
+}
 
 .container4 {
     display: grid;
@@ -114,15 +217,15 @@ main h1 {
     max-width: 1200px;
     margin: auto;
     grid-template-rows: 1fr ;
-    padding-top: 168px;
-    
+    padding-top: 200px;
+    padding-bottom: 180px;
 }
 
 .lista3 {
-    
+    line-height: 26pt;
     grid-column: 1;
     grid-row: 1;
-    
+    padding-top: 80px;
     
 }
 .container4 img {
@@ -137,31 +240,6 @@ main h1 {
 }
 .immagini6 {
     grid-column:  4;
-    grid-row: 1;
-}
-p {
-    color: white;
-    font-size: 12pt;
-}    
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    max-width: 1200px;
-    margin: auto;
-    grid-template-rows: 1fr ;
-    padding-top: 200px;
-    padding-bottom: 180px;
-}
-.content {
-    
-    grid-column: 1;
-    grid-row: 1;
-    
-}
-
-.testo {
-    grid-column: 2;
     grid-row: 1;
 }
 .container5 {
@@ -239,9 +317,6 @@ footer nav ul {
     
     
 }
-.margini {
-    margin: 0 5% 0 5%;
-}
 
 @media (max-width: 1120px) {
     .margini {
@@ -270,18 +345,47 @@ footer nav ul {
     }
     .content {
         grid-column: 1;
-    grid-row: 2;
+    grid-row: 1;
     }
     .testo {
         grid-column: 1;
-    grid-row: 1;
+    grid-row: 2;
     
     }
-    .content img {
-        max-width: max-content;
+    .container1 {
+     grid-template-columns: 1fr;
+    grid-template-rows: 1fr ;
+    padding-top: 20px;
+    margin: 30px;
+    
     }
     
+    .container2 {
+        grid-template-columns: 1fr;
+        
+        padding-top: 20px;
+        margin: 30px;
+    }
+    .container2 img {
+        max-width: 60%;
+        width: 100%;
+        padding-top: 30px;
+    }
+    .container3 {
+        grid-template-columns: 1fr;
+        
+        padding-top: 100px;
+        margin: 30px;
+    }
+    .container3 img {
+        max-width: 60%;
+        width: 100%;
+        padding-top: 30px;
+    }
     
+    .lista2 {
+        grid-column: 1;
+    }
     .container4 {
         grid-template-columns: 1fr;
         
@@ -296,7 +400,9 @@ footer nav ul {
     .titolo h1 {
         font-size: 35px;
     }
-    
+    .titolo h2 {
+        font-size: 30px;
+    }
     footer nav ul {
         font-size: 10pt;
     }
@@ -330,7 +436,9 @@ footer nav ul {
     p {
         font-size: 9pt;
     }
-   
+   .titolo2 p {
+    font-size: 12pt;
+   }
    .bottoni {
     font-size: 9pt;
     gap: 20px;
@@ -342,7 +450,9 @@ footer nav ul {
    .titolo h1 {
     font-size: 25px;
 }
-
+.titolo h2 {
+    font-size: 20px;
+}
 .app{
     max-width: 3%;
 }
