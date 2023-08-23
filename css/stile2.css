@@ -12,7 +12,7 @@ img {
 
 .heroverse {
     width: 216px;
-    padding-top: 12px;
+    padding-top: 10px;
 height: 52px;
 flex-shrink: 0;
 justify-content: center;
@@ -28,6 +28,8 @@ max-width:99%;
 width: 100%;
 height:auto;
 flex-shrink: 0;
+
+
 
 }
 header a {
@@ -57,10 +59,10 @@ header p {
 header nav ul {
     margin:0;
     padding: 0;
-    padding-top: 38px;
+    padding-top: 15px;
     list-style-type: none;
     display: flex;
-    gap: 20px;
+    gap: 56px;
     justify-content: center;
     font-size: 12px;
     font-style: normal;
@@ -72,9 +74,21 @@ header nav ul {
     margin-top: 20px;
    
 }
+.linea1 {
+    box-shadow: 0px 4px 10px 2px black;
+   
+}
+.linea2 {
+    margin-top: 3px;
+    
+}
+.linea3 {
+    margin-bottom: 2px;
+}
 .fumetti  {
     background-color:rgba(25, 25, 47, 1);
     border-radius: 30px;
+    padding: 0 8px 0 8px;
 }
     
 
@@ -110,11 +124,12 @@ main h1 {
 .container4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    grid-gap: 20px;
-    max-width: 1200px;
+    grid-gap: 50px;
+    max-width: 1000px;
     margin: auto;
     grid-template-rows: 1fr ;
     padding-top: 168px;
+    padding-bottom: 150px;
     
 }
 
@@ -126,17 +141,19 @@ main h1 {
     
 }
 .container4 img {
-    max-width: 80%;
+    max-width: 100%;
     width: 100%;
+    
+    padding-top: 100px;
    
 }
 .immagini5 {
-    grid-column: 3 ;
+    grid-column: 2;
     grid-row: 1;
     
 }
 .immagini6 {
-    grid-column:  4;
+    grid-column:  3;
     grid-row: 1;
 }
 p {
@@ -146,15 +163,15 @@ p {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    max-width: 1200px;
+    grid-gap: 50px;
+    max-width: 1000px;
     margin: auto;
     grid-template-rows: 1fr ;
-    padding-top: 200px;
+    
     padding-bottom: 180px;
 }
 .content {
-    
+    padding-top: 23px;
     grid-column: 1;
     grid-row: 1;
     
@@ -174,7 +191,7 @@ p {
     grid-column: 1;
     max-width: 216px;
         width: 100%;
-     padding-right: 200px;
+    
     height: 52px;
     flex-shrink: 0;
     
@@ -214,7 +231,8 @@ max-width: fit-content;
 width: 100%;
 height:auto;
 flex-shrink: 0;
-padding: 90px;
+padding: 40px 90px 40px 90px;
+
 
 }
 footer a {
@@ -253,10 +271,7 @@ footer nav ul {
     .titolo h2 {
         font-size: 30px;
     }
-    .app {
-        padding-left: 0px;
-    }
-   
+    
   
     
 }
@@ -289,7 +304,7 @@ footer nav ul {
         margin: 30px;
     }
     .container4 img {
-        max-width: 60%;
+        max-width: 40%;
         width: 100%;
         padding-top: 30px;
     }
@@ -319,7 +334,7 @@ footer nav ul {
 .contatti {
     grid-column:1 ;
     grid-row: 2;
-    padding-right: 200px;
+    
     padding-top: 30px;
     
 }
@@ -337,7 +352,7 @@ footer nav ul {
    }
    header nav ul {
     font-size: 8pt;
-    gap: 10px;
+    gap: 15px;
    }
    .titolo h1 {
     font-size: 25px;

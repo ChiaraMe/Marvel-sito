@@ -12,7 +12,7 @@ img {
 
 .heroverse {
     width: 216px;
-    padding-top: 12px;
+    padding-top: 10px;
 height: 52px;
 flex-shrink: 0;
 justify-content: center;
@@ -57,10 +57,10 @@ header p {
 header nav ul {
     margin:0;
     padding: 0;
-    padding-top: 38px;
+    padding-top: 15px;
     list-style-type: none;
     display: flex;
-    gap: 20px;
+    gap: 56px;
     justify-content: center;
     font-size: 12px;
     font-style: normal;
@@ -72,9 +72,21 @@ header nav ul {
     margin-top: 20px;
    
 }
+.linea1 {
+    box-shadow: 0px 4px 10px 2px black;
+   
+}
+.linea2 {
+    margin-top: 3px;
+    
+}
+.linea3 {
+    margin-bottom: 2px;
+}
 .MCU  {
     background-color:rgba(25, 25, 47, 1);
     border-radius: 30px;
+    padding: 0 8px 0 8px;
 }
     
 
@@ -112,17 +124,22 @@ p {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    max-width: 1200px;
+    grid-gap: 50px;
+    max-width: 1000px;
     margin: auto;
     grid-template-rows: 1fr ;
     padding-top: 168px;
 }
 .content {
-    padding: 10px;
+    
     grid-column: 2;
     grid-row: 1;
     
+}
+.content img {
+    width: 100%;
+    max-width: 100%;
+    padding-top: 47px;
 }
 
 .testo {
@@ -133,8 +150,8 @@ p {
 .container2 {
     display: grid;
     grid-template-columns: 1fr 1fr   ;
-    grid-gap: 20px;
-    max-width: 1200px;
+    grid-gap: 50px;
+    max-width: 1000px;
     margin: auto;
     grid-template-rows: 1fr ;
     padding-top: 110px;
@@ -144,10 +161,11 @@ p {
     
     grid-column: 2;
     grid-row: 1;
+    padding-top: 50px;
     
 }
 .container2 img {
-    max-width: 80%;
+    max-width: 100%;
     width: 100%;
     
 }
@@ -161,8 +179,8 @@ p {
 .container3 {
     display: grid;
     grid-template-columns: 1fr 1fr  ;
-    grid-gap: 20px;
-    max-width: 1200px;
+    grid-gap: 50px;
+    max-width: 1000px;
     margin: auto;
     grid-template-rows: 1fr ;
     padding-top: 110px;
@@ -173,10 +191,11 @@ p {
     
     grid-column: 1;
     grid-row: 1;
+    padding-top: 55px;
     
 }
 .container3 img {
-    max-width: 80%;
+    max-width: 100%;
     width: 100%;
     
 }
@@ -199,7 +218,7 @@ p {
     grid-column: 1;
     max-width: 216px;
         width: 100%;
-     padding-right: 200px;
+    
     height: 52px;
     flex-shrink: 0;
     
@@ -239,7 +258,7 @@ max-width: fit-content;
 width: 100%;
 height:auto;
 flex-shrink: 0;
-padding: 90px;
+padding: 40px 90px 40px 90px;
 
 }
 footer a {
@@ -387,7 +406,7 @@ footer nav ul {
    
    header nav ul {
     font-size: 8pt;
-    gap: 10px;
+    gap: 15px;
    }
    .titolo h1 {
     font-size: 25px;
