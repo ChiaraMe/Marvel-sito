@@ -12,12 +12,13 @@ img {
 
 .heroverse {
     width: 216px;
-    padding-top: 10px;
+   padding-top: 10px;
 height: 52px;
 flex-shrink: 0;
 justify-content: center;
 margin: auto;
 object-fit: contain;
+list-style-type: none;
 
 }
 header {
@@ -221,7 +222,7 @@ p {
     
     height: 52px;
     flex-shrink: 0;
-    
+    padding-right: 200px;
     margin: auto;
     object-fit: contain;
 }
@@ -231,6 +232,7 @@ p {
     grid-column: 3;
    
 }
+
 .app {
     grid-row: 1;
     grid-column: 4;
