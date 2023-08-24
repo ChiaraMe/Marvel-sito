@@ -95,12 +95,14 @@ main h1 {
     margin: auto;
     text-align: center;
     margin-top: -100px;
+    text-shadow: -4px 0 #3C3B6E, 0 4px #3C3B6E, 0 4px #3C3B6E, -4px 0 #3C3B6E;
 }
 main h2 {
     font-size: 50px;
     color: white;
     margin: auto;
     text-align: center;
+    text-shadow: -4px 0 #3C3B6E, 0 4px #3C3B6E, 0 4px #3C3B6E, -4px 0 #3C3B6E;
     
 }
 .bottoni {
@@ -139,7 +141,9 @@ main h2 {
     grid-row: 1;
     
 }
-
+.testo p {
+    line-height: 16pt;
+}
 .testo {
     grid-column: 1;
     grid-row: 1;
