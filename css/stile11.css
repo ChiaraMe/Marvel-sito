@@ -5,6 +5,10 @@ body {
     
     width: 100%;
 }
+img {
+    max-width:100%;
+    height: auto;
+}
 .heroverse {
     width: 216px;
    padding-top: 10px;
@@ -16,6 +20,8 @@ object-fit: contain;
 list-style-type: none;
 
 }
+
+
 header {
 background: #3C3B6E;
 object-fit: contain;
