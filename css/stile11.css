@@ -5,18 +5,15 @@ body {
     
     width: 100%;
 }
-.heroverse img {
-    max-width:100%;
-    height: auto;
-}
 .heroverse {
     width: 216px;
-    padding-top: 10px;
+   padding-top: 10px;
 height: 52px;
 flex-shrink: 0;
 justify-content: center;
 margin: auto;
 object-fit: contain;
+list-style-type: none;
 
 }
 header {
