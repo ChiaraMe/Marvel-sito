@@ -180,6 +180,7 @@ p {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 30px;
 }
 .heroverse2 {
     grid-row: 1;
@@ -222,11 +223,11 @@ footer{
 background: #3C3B6E;
 object-fit: contain;
 margin: 0;
-max-width: fit-content;
+max-width: auto;
 width: 100%;
 height:auto;
 flex-shrink: 0;
-padding: 40px 90px 40px 90px;
+padding: 40px 0px 40px 0px;
 
 
 }
@@ -288,7 +289,9 @@ footer nav ul {
     
     }
     .content img {
-        max-width: max-content;
+        max-width: 60%;
+        width: 100%;
+        
     }
     
     
@@ -299,7 +302,7 @@ footer nav ul {
         margin: 30px;
     }
     .container4 img {
-        max-width: 40%;
+        max-width: 60%;
         width: 100%;
         padding-top: 30px;
     }
@@ -357,12 +360,4 @@ footer nav ul {
     max-width: 3%;
 }
 
-}
-@media (max-width: 500px) {   
-.imm img {
-    max-width: 600px;
-}
-header {
-    padding-right: 160px;
-}
 }
