@@ -1,0 +1,227 @@
+body {
+    font-family: 'Days One', sans-serif;
+    background-color: black;
+    margin: auto;
+    
+    width: 100%;
+}
+.heroverse img {
+    max-width:100%;
+    height: auto;
+}
+.heroverse {
+    width: 216px;
+    padding-top: 10px;
+height: 52px;
+flex-shrink: 0;
+justify-content: center;
+margin: auto;
+object-fit: contain;
+
+}
+header {
+background: #3C3B6E;
+object-fit: contain;
+margin: 0;
+max-width:99%;
+width: 100%;
+height:auto;
+flex-shrink: 0;
+
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+header {
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   
+    margin: 0%;
+}
+
+header p {
+    margin: 0;
+       
+}
+
+header nav ul {
+    margin:0;
+    padding: 0;
+    padding-top: 15px;
+    list-style-type: none;
+    display: flex;
+    gap: 56px;
+    justify-content: center;
+    font-size: 12px;
+    font-style: normal;
+    
+    line-height: normal
+}
+ header hr {
+    width:auto;
+    margin-top: 20px;
+   
+}
+.linea1 {
+    box-shadow: 0px 4px 10px 2px black;
+   
+}
+.linea2 {
+    margin-top: 3px;
+    
+}
+.linea3 {
+    margin-bottom: 2px;
+}
+main h1 {
+    font-size: 55px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    margin-top: -100px;
+}
+main h2 {
+    font-size: 50px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    
+}
+.bottoni {
+    list-style-type: none;
+    display: flex;
+    gap: 75px;
+    justify-content: center;
+    font-size: 14pt;        
+    line-height: normal;
+    padding-top: 134px;
+    
+}
+.bottoni a {
+    color: white;
+    text-decoration: none;
+    background-color: #3C3B6E;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+main {
+    padding-top: 120px; /* nell'esempio c'è questo padding perché la testata ha position:fixed */
+    max-width: 1000px;
+    margin:auto
+}
+
+.container h2, .container p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:56px;
+    
+}
+
+.grid .item img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    
+    
+}
+.text{
+    padding-top: 20px;
+}
+.container{
+    padding-top: 210px;
+}
+.grid .item .text{
+    background-color: #3C3B6E;
+    padding: 32px 16px;
+}
+.item img{
+    height: 250px;
+    width: 100%;
+    transition: all 1s ease;
+    opacity: 0.7;
+}
+.item img:hover{
+    width: 100%;
+    height: 300px;
+    opacity: 1;
+}
+.text h2 {
+    font-size: 12pt;
+}
+
+
+@media screen and (max-width :1000px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 100px 0 100px;
+    }
+    .grid .item img{
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+        
+        
+    }
+    .grid .item .text{
+        padding: 20px 10px;
+    }
+    .text h2{
+        font-size: 9pt;
+    }
+}
+@media screen and (max-width :800px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+    
+    .grid .item .text {
+        width: 280px;
+    }
+    .item{
+        grid-column: 2;
+    }
+}
+@media screen and (max-width :500px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-right: 200px;
+        
+        
+    }
+    .item{
+        grid-column: 1;
+    }
+    .grid .item .text{
+        width: 200px;
+    }
+    .grid .item img{
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+        
+        
+    }
+}
+    
+    
+    
+    
