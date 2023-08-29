@@ -3,7 +3,7 @@ body {
     
     background-color: black;
     margin: auto;
-    max-width: 1440px;
+    max-width: auto;
 }
 img {
     max-width:100%;
@@ -94,14 +94,13 @@ main h1 {
     margin: auto;
     text-align: center;
     margin-top: -100px;
-    text-shadow: -4px 0 #3C3B6E, 0 4px #3C3B6E, 0 4px #3C3B6E, -4px 0 #3C3B6E;
+    
 }
 main h2 {
     font-size: 50px;
     color: white;
     margin: auto;
     text-align: center;
-    text-shadow: -4px 0 #3C3B6E, 0 4px #3C3B6E, 0 4px #3C3B6E, -4px 0 #3C3B6E;
     
 }
 .bottoni {
@@ -459,4 +458,26 @@ footer nav ul {
     max-width: 3%;
 }
 
+}
+@media (max-width: 500px) {
+    .bottoni {
+        font-size: 5pt;
+    gap: 5px;
+    }
+    .container5 {
+        margin-left: 90px;
+    }
+    .contatti nav ul {
+        gap: 25px;
+        font-size: 10pt;
+    }
+    .titolo h1  {
+        font-size: 15pt;
+    }
+    .titolo h2 {
+        font-size: 10pt;
+    }
+    .titolo {
+        padding-top: 30px;
+    }
 }

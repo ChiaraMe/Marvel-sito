@@ -97,7 +97,6 @@ main h1 {
     margin: auto;
     text-align: center;
     margin-top: -100px;
-    text-shadow: -4px 0 #3C3B6E, 0 4px #3C3B6E, 0 4px #3C3B6E, -4px 0 #3C3B6E;
 }
 .bottoni {
     list-style-type: none;
@@ -215,6 +214,7 @@ p {
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin-left: 30px;
+    
    
 }
 .heroverse2 {
@@ -372,6 +372,7 @@ footer nav ul {
 .container5 {
     grid-template-columns: 1fr ;
     grid-template-rows: 1fr 1fr 1fr;
+    box-sizing: border-box;
 }
 .heroverse2 {
     grid-column: 1;
@@ -426,6 +427,20 @@ footer nav ul {
     }
     .container5 {
         margin-left: 90px;
+        
+    }
+    .contatti nav ul {
+        gap: 25px;
+        font-size: 10pt;
+    }
+    .titolo h1  {
+        font-size: 15pt;
+    }
+    .titolo h2 {
+        font-size: 10pt;
+    }
+    .titolo {
+        padding-top: 50px;
     }
 }
 
