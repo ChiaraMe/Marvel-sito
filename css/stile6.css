@@ -175,17 +175,16 @@ p {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    margin-left: 30px;
 }
 .heroverse2 {
     grid-row: 1;
     grid-column: 1;
     max-width: 216px;
         width: 100%;
-    
+     padding-right: 200px;
     height: 52px;
     flex-shrink: 0;
-    padding-right: 200px;
+    
     margin: auto;
     object-fit: contain;
 }
@@ -218,11 +217,12 @@ footer{
 background: #3C3B6E;
 object-fit: contain;
 margin: 0;
-max-width: auto;
+max-width: fit-content;
 width: 100%;
 height:auto;
 flex-shrink: 0;
-padding: 40px 0px 40px 0px;
+padding: 40px 90px 40px 90px;
+
 }
 footer a {
     text-decoration: none;
