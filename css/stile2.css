@@ -8,7 +8,11 @@ img {
     max-width:100%;
     height: auto;
 }
-
+.imm img {
+    width: 100%;
+    height: auto;
+    max-width: auto;
+}
 
 .heroverse {
     width: 216px;
@@ -106,7 +110,7 @@ main h1 {
     display: flex;
     gap: 75px;
     justify-content: center;
-    font-size: 14px;        
+    font-size: 14pt;        
     line-height: normal;
     padding-top: 134px;
     

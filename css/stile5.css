@@ -8,7 +8,11 @@ img {
     max-width:100%;
     height: auto;
 }
-
+.imm img {
+    width: 100%;
+    height: auto;
+    max-width: auto;
+}
 
 .heroverse {
     width: 216px;
