@@ -373,7 +373,7 @@ footer nav ul {
 .container5 {
     grid-template-columns: 1fr ;
     grid-template-rows: 1fr 1fr 1fr;
-    box-sizing: border-box;
+    
 }
 .heroverse2 {
     grid-column: 1;
