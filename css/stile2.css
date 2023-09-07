@@ -165,11 +165,11 @@ p {
     max-width: 1000px;
     margin: auto;
     grid-template-rows: 1fr ;
-    
+    align-items: center;
     padding-bottom: 180px;
 }
 .content {
-    padding-top: 23px;
+    
     grid-column: 1;
     grid-row: 1;
     

@@ -139,6 +139,7 @@ p {
     margin: auto;
     grid-template-rows: 1fr ;
     padding-top: 110px;
+    align-items: center;
 }
 
 .lista1 {
@@ -165,13 +166,14 @@ p {
     margin: auto;
     grid-template-rows: 1fr ;
     padding-top: 110px;
+    align-items: center;
 }
 
 .lista2 {
     line-height: 16pt;
     grid-column: 3;
     grid-row: 1;
-    padding-top: 100px;
+    
     
 }
 .container2 img {
@@ -188,13 +190,14 @@ p {
     margin: auto;
     grid-template-rows: 1fr ;
     padding-top: 110px;
+    align-items: center;
 }
 
 .lista3 {
     line-height: 16pt;
     grid-column: 1;
     grid-row: 1;
-    padding-top: 100px;
+    
     
 }
 .container3 img {
@@ -210,13 +213,14 @@ p {
     margin: auto;
     grid-template-rows: 1fr ;
     padding-top: 110px;
+    align-items: center;
 }
 
 .lista4 {
     line-height: 16pt;
     grid-column: 3;
     grid-row: 1;
-    padding-top: 100px;
+    
     
 }
 .container4 img {
@@ -237,13 +241,14 @@ p {
     grid-template-rows: 1fr ;
     padding-top: 110px;
     padding-bottom: 180px;
+    align-items: center;
 }
 
 .lista6 {
     line-height: 16pt;
     grid-column: 1;
     grid-row: 1;
-    padding-top: 100px;
+    
     
 }
 .container6 img {

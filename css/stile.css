@@ -135,6 +135,7 @@ p {
     margin: auto;
     grid-template-rows: 1fr ;
     padding-top: 168px;
+    align-items: center;
 }
 .content {
     
@@ -145,7 +146,7 @@ p {
 .content img {
     width: 100%;
     max-width: 100%;
-    padding-top: 47px;
+    
 }
 
 .testo {
@@ -161,13 +162,14 @@ p {
     margin: auto;
     grid-template-rows: 1fr ;
     padding-top: 110px;
+    align-items: center;
 }
 
 .lista1 {
     
     grid-column: 2;
     grid-row: 1;
-    padding-top: 50px;
+    
     
 }
 .container2 img {
@@ -191,13 +193,14 @@ p {
     grid-template-rows: 1fr ;
     padding-top: 110px;
     padding-bottom: 180px;
+    align-items: center;
 }
 
 .lista2 {
     
     grid-column: 1;
     grid-row: 1;
-    padding-top: 55px;
+    
     
 }
 .container3 img {
