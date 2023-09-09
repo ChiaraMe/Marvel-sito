@@ -88,138 +88,158 @@ header nav ul {
 .linea3 {
     margin-bottom: 2px;
 }
-.MCU  {
+.home  {
     background-color:rgba(25, 25, 47, 1);
     border-radius: 30px;
     padding: 0 8px 0 8px;
 }
-    
-
-main h1 {
-    font-size: 55px;
+.titolo p {
+    font-size: 16pt;
     color: white;
     margin: auto;
     text-align: center;
     margin-top: -100px;
 }
-.bottoni {
-    list-style-type: none;
-    display: flex;
-    gap: 75px;
-    justify-content: center;
-    font-size: 14pt;        
-    line-height: normal;
-    padding-top: 134px;
-    
-}
-.bottoni a {
-    color: white;
-    text-decoration: none;
-    background-color: #3C3B6E;
-    padding: 10px 20px 10px 20px;
-    border-radius: 10px;
-    
-}
-
-
 p {
     color: white;
     font-size: 12pt;
-    line-height: 16pt;
-}    
-.container {
+    
+} 
+.testo h3 {
+    color: white;
+    font-size: 36pt;
+    
+    
+    
+}
+.testo a{
+    text-decoration: none;
+    color: white;
+    font-size: 16pt;   
+}
+.container{
+    
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 50px;
-    max-width: 1000px;
+    grid-auto-rows: 1fr;
     margin: auto;
-    grid-template-rows: 1fr ;
-    padding-top: 168px;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    gap: 122px;
     align-items: center;
 }
-.content {
-    
-    grid-column: 2;
-    grid-row: 1;
-    
-}
-.content img {
-    width: 100%;
-    max-width: 100%;
-    
-}
-
 .testo {
     grid-column: 1;
     grid-row: 1;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
-
-.container2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr   ;
-    grid-gap: 50px;
-    max-width: 1000px;
-    margin: auto;
-    grid-template-rows: 1fr ;
-    padding-top: 110px;
-    align-items: center;
-}
-
-.lista1 {
-    
+.content {
     grid-column: 2;
     grid-row: 1;
     
-    
 }
-.container2 img {
+.content img{
     max-width: 100%;
     width: 100%;
-    
+    height: auto;
+
 }
-.immagini1 {
-    grid-column: 1;
-    grid-row: 1;
-    
+
+.lista {
+    display: flex;
+    gap: 50px;
+
+    align-items: top;
+}
+
+.lista a{
+    text-decoration: none;
+    color: white;
+    font-size: 16pt;   
 }
 
 
-.container3 {
+.testo a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.testo p {
+    text-align: left;
+    padding-top: 100px;
+}
+
+.testo1 h3 {
+    color: white;
+    font-size: 36pt;
+    
+    
+    
+}
+.testo1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 16pt;   
+}
+.container1{
+    
     display: grid;
-    grid-template-columns: 1fr 1fr  ;
-    grid-gap: 50px;
-    max-width: 1000px;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
     margin: auto;
-    grid-template-rows: 1fr ;
-    padding-top: 110px;
-    padding-bottom: 180px;
+    
+    gap: 122px;
     align-items: center;
 }
-
-.lista2 {
-    
+.testo1 {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.content1 {
     grid-column: 1;
     grid-row: 1;
     
-    
 }
-.container3 img {
+.content1 img{
     max-width: 100%;
     width: 100%;
-    
-}
-.immagini3 {
-    grid-column: 2 ;
-    grid-row: 1;
-    
+    height: auto;
+
 }
 
+.lista1 {
+    display: flex;
+    gap: 50px;
+
+    align-items: top;
+}
+
+.lista1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 16pt;   
+}
+
+
+.testo1 a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.testo1 p {
+    text-align: left;
+    padding-top: 100px;
+}
 
 
 .container5 {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
 }
 .heroverse2 {
     grid-row: 1;
@@ -292,84 +312,73 @@ footer nav ul {
     
 }
 
-
 @media (max-width: 1120px) {
-    .margini {
-        margin: 0 5% 0 5%;
-    }
-    .titolo h1 {
-        font-size: 35px;
-    }
-    .titolo h2 {
-        font-size: 30px;
-    }
+    
     .app {
         padding-left: 0px;
     }
-    .bottoni {
-        font-size: 9pt;
-        gap:20px;
-    }
-  
-    
+   
 }
 @media (max-width: 1000px) {
-    
+   .margini {
+    margin-right:30px;
+   }
+    .titolo p {
+        font-size: 14pt;
+    }
     .container {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr ;
-        padding-top: 50px;
+        row-gap: 0;
+       
         margin: 30px;
     }
     .content {
         grid-column: 1;
     grid-row: 1;
+    
+    
     }
     .testo {
         grid-column: 1;
     grid-row: 2;
+    max-width: 500px;
     
     }
-   
+    .content img{
+        max-width: 80%;
+        width: 100%;
+        height: auto; 
+         
+    }
+    .content1 img{
+        max-width: 80%;
+        width: 100%;
+        height: auto;      
+    }
+    .testo p {
+        max-width: 500px;
+       
+    }
+    .testo1 p {
+        max-width: 500px;
+       
+    }
     
-    .container2 {
+    .container1 {
         grid-template-columns: 1fr;
-        grid-auto-rows: 1fr ;
-        padding-top: 80px;
+       
+        row-gap: 0;
         margin: 30px;
     }
-    
-    .lista1 {
+    .content1 {
         grid-column: 1;
-        grid-row: 2; 
-        
+    grid-row: 1;
     }
-    .container2 img {
-        max-width: 100%;
-        width: 100%;
-        
-    }
-    .container3 {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr ;
-        
-        margin: 30px;
-    }
-    .container3 img {
-        max-width: 100%;
-        width: 100%;
-        
-    }
-    
-    .lista2 {
+    .testo1 {
         grid-column: 1;
-        grid-row: 2;
+    grid-row: 2;
+    max-width: 500px;
     }
-    
-    .titolo h1 {
-        font-size: 35px;
-    }
-    
     footer nav ul {
         font-size: 10pt;
     }
@@ -397,28 +406,40 @@ footer nav ul {
     padding-top: 30px;
     
 }
-
 }
-    
 @media (max-width: 700px) {
     p {
         font-size: 9pt;
     }
-   .bottoni {
-    font-size: 7pt;
-    gap: 10px;
+ h3 {
+font-size: 30pt;
+ }
+ .lista a {
+    font-size: 13pt;
+ }
+ .lista1 a {
+    font-size: 13pt;
+ }
+ 
+ .titolo p {
+    font-size: 11pt;
+    padding-top: 10px;
+ }
+   .content img {
+    max-width: 60%;
+    width: 100%;
+    height: auto;
    }
-   
+   .content1 img {
+    max-width: 60%;
+    width: 100%;
+    height: auto;
+   }
    header nav ul {
     font-size: 8pt;
     gap: 15px;
    }
-   .titolo h1 {
-    font-size: 25px;
-}
-.titolo h2 {
-    font-size: 20px;
-}
+   
 .app{
     max-width: 3%;
 }
@@ -427,26 +448,46 @@ footer {
 }
 }
 @media (max-width: 500px) {
-    .bottoni {
-        font-size: 5pt;
-    gap: 5px;
-    }
-    
+   
     .contatti nav ul {
         gap: 25px;
         font-size: 10pt;
     }
-    .titolo h1  {
-        font-size: 15pt;
+    .titolo p {
+        font-size: 9pt;
+        padding-top: 30px;
+     }
+   
+ .testo h3 {
+font-size: 25pt;
+ }
+ .testo1 h3 {
+    font-size: 25pt;
+     }
+ .lista a {
+    font-size: 11pt;
+ }
+ 
+ .lista1 a {
+    font-size: 11pt;
     }
-    .titolo h2 {
-        font-size: 10pt;
-    }
-    .titolo {
-        padding-top: 50px;
-    }
-    
+ .testo{
+    max-width: 250px;
+ }
+
+ .titolo p {
+    font-size: 11pt;
+    padding-top: 30px;
+ }
+   .content img {
+    max-width: 80%;
+    width: 100%;
+    height: auto;
+   }
+   .content1 img {
+    max-width: 80%;
+    width: 100%;
+    height: auto;
+   }
+   
 }
-
-
-

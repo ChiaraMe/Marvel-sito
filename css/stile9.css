@@ -193,7 +193,7 @@ p {
      padding-right: 200px;
     height: 52px;
     flex-shrink: 0;
-    
+    list-style-type: none;
     margin: auto;
     object-fit: contain;
 }
