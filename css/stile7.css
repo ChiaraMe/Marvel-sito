@@ -289,7 +289,7 @@ p {
     height: auto;
     object-fit: contain;
     padding-left: 200px ;
-       
+    list-style-type:circle;  
     width: 100%;
     
     margin: auto;
@@ -297,6 +297,9 @@ p {
     
     
     
+}
+.app li {
+    color: #3C3B6E;
 }
 
 footer{
@@ -486,16 +489,16 @@ footer nav ul {
 .app{
     max-width: 3%;
 }
-
+footer {
+    padding: 0;
+}
 }
 @media (max-width: 500px) {
     .bottoni {
         font-size: 5pt;
     gap: 5px;
     }
-    .container5 {
-        margin-left: 90px;
-    }
+    
     .contatti nav ul {
         gap: 25px;
         font-size: 10pt;

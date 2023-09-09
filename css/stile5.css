@@ -273,7 +273,7 @@ main h2 {
     height: auto;
     object-fit: contain;
     padding-left: 200px ;
-       
+    list-style-type:circle;  
     width: 100%;
     
     margin: auto;
@@ -281,6 +281,9 @@ main h2 {
     
     
     
+}
+.app li {
+    color: #3C3B6E;
 }
 
 footer{
@@ -455,7 +458,9 @@ footer nav ul {
 .app{
     max-width: 3%;
 }
-
+footer {
+    padding: 0;
+}
 
 }
 
@@ -464,9 +469,7 @@ footer nav ul {
         font-size: 5pt;
     gap: 5px;
     }
-    .container5 {
-        margin-left: 90px;
-    }
+    
     .contatti nav ul {
         gap: 25px;
         font-size: 10pt;
