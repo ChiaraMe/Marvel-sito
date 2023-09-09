@@ -131,7 +131,7 @@ p {
 .testo {
     grid-column: 1;
     grid-row: 1;
-    text-align: center;
+    
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -149,7 +149,7 @@ p {
 
 .lista {
     display: flex;
-    gap: 50px;
+    gap: 30px;
 
     align-items: top;
 }
@@ -195,7 +195,7 @@ p {
 .testo1 {
     grid-column: 2;
     grid-row: 1;
-    text-align: center;
+    
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -213,7 +213,7 @@ p {
 
 .lista1 {
     display: flex;
-    gap: 50px;
+    gap: 30px;
 
     align-items: top;
 }
