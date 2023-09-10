@@ -209,3 +209,74 @@ footer nav ul {
     
     
 }
+@media (max-width: 1120px) {
+    .margini {
+        margin: 0 5% 0 5%;
+    }
+  
+    .app {
+        padding-left: 0px;
+    }
+}
+@media (max-width: 1000px) {
+.container5 {
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.heroverse2 {
+    grid-column: 1;
+    grid-row: 1;
+}
+.app {
+    grid-column: 1;
+    grid-row: 3;
+    max-width: 2%;
+    padding-right: 330px;
+    padding-top: 30px;
+    
+}
+.contatti {
+    grid-column:1 ;
+    grid-row: 2;
+    padding-right: 200px;
+    padding-top: 30px;
+    
+}
+
+
+}
+@media (max-width: 700px) {
+.testo p {
+    font-size: 9pt;
+}
+
+header nav ul {
+font-size: 8pt;
+gap: 15px;
+}
+
+.app{
+max-width: 3%;
+}
+footer {
+padding: 0;
+}
+.testo h3 {
+    font-size: 17pt;
+}
+.testo h5 {
+    font-size:12pt ;
+}
+.testo a {
+    font-size: 9pt;
+}
+}
+@media (max-width: 500px) {
+    
+    
+    .contatti nav ul {
+        gap: 25px;
+        font-size: 10pt;
+    }
+   
+}
