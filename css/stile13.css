@@ -102,6 +102,11 @@ h4 {
     color: white;
     font-size: 20pt;
 }
+h6 {
+    color: white;
+    font-size: 16pt;
+    padding-top: 74px;
+}
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
