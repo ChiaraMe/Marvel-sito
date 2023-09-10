@@ -270,6 +270,7 @@ footer nav ul {
 }
 
 @media screen and (max-width :1000px) {
+    
     .grid{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -336,7 +337,7 @@ footer nav ul {
    
   
    .bottoni {
-    font-size: 9pt;
+    font-size: 7pt;
     gap: 20px;
    }
    header nav ul {
