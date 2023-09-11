@@ -423,7 +423,7 @@ font-size: 30pt;
  
  .titolo p {
     font-size: 11pt;
-    padding-top: 10px;
+    padding-top: 30px;
  }
    .content img {
     max-width: 60%;
@@ -453,10 +453,7 @@ footer {
         gap: 25px;
         font-size: 10pt;
     }
-    .titolo p {
-        font-size: 9pt;
-        padding-top: 30px;
-     }
+   
    
  .testo h3 {
 font-size: 25pt;
@@ -477,6 +474,9 @@ font-size: 25pt;
 
  .titolo p {
     font-size: 11pt;
+    
+ }
+ .titolo {
     padding-top: 30px;
  }
    .content img {

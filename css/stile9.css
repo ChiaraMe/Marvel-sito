@@ -290,7 +290,7 @@ footer nav ul {
     grid-row: 2;
     }
     .content img {
-        max-width: 60%;
+        max-width: 100%;
         width: 100%;
        
     }
@@ -309,7 +309,7 @@ footer nav ul {
     grid-row: 2;
 }
 .content1 img {
-    max-width: 60%;
+    max-width: 100%;
     width: 100%;
     
 }
@@ -375,7 +375,16 @@ footer nav ul {
 footer {
     padding: 0;
 }
-
+.content img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+.content1 img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
 }
 
 @media (max-width: 500px) {
