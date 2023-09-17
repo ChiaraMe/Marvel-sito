@@ -143,7 +143,12 @@ p {
     color: white;
     font-size: 12pt;
 }
-
+.lista1 ul {
+    color: white;
+}
+.lista2 ul {
+    color: white;
+}
 .container1 {
     display: grid;
     grid-template-columns: 1fr 1fr ;

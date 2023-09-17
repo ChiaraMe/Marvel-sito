@@ -202,6 +202,15 @@ p {
     grid-row: 1;
     
 }
+.lista1 ul {
+    color: white;
+}
+.lista2 ul {
+    color: white;
+}
+.lista3 ul {
+    color: white;
+}
 .container2 img {
     max-width: 100%;
     width: 100%;
