@@ -556,8 +556,11 @@ footer {
     }
    
     .bottoni {
-        padding: 10px 5px 10px 5px;
+        padding: 10px 0 10px 0;
         grid-row: 2; 
+        gap: 0;
+        font-size: 7pt;
+      
     }
  .testo h3 {
 font-size: 25pt;
@@ -565,15 +568,10 @@ font-size: 25pt;
  .testo1 h3 {
     font-size: 25pt;
      }
- .lista a {
-    font-size: 11pt;
- }
- 
- .lista1 a {
-    font-size: 11pt;
-    }
+
  .testo{
     max-width: 250px;
+    padding-top: 50px;
  }
 
  .titolo p {
