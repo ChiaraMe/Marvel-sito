@@ -89,9 +89,12 @@ header nav ul {
     margin-bottom: 2px;
 }
 .MCU  {
-    background-color:rgba(25, 25, 47, 1);
+    background-color:white;
     border-radius: 5px;
     padding: 0 8px 0 8px;
+}
+.MCU a {
+    color: #3C3B6E;
 }
     
 
@@ -405,7 +408,7 @@ footer nav ul {
         font-size: 9pt;
     }
    .bottoni {
-    font-size: 7pt;
+    font-size: 8pt;
     gap: 10px;
    }
    
@@ -428,10 +431,13 @@ footer {
 }
 @media (max-width: 500px) {
     .bottoni {
-        font-size: 5pt;
+        font-size: 8pt;
     gap: 5px;
+    padding-top: 0;
     }
-    
+    .bottoni a {
+        padding:  10px 10px 10px 10px;
+    }
     .contatti nav ul {
         gap: 25px;
         font-size: 10pt;

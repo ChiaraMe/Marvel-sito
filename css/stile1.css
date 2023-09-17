@@ -89,9 +89,12 @@ header nav ul {
     margin-bottom: 2px;
 }
 .home  {
-    background-color:rgba(25, 25, 47, 1);
+    background-color:white;
     border-radius: 5px;
     padding: 0 8px 0 8px;
+}
+.home a {
+    color: #3C3B6E;
 }
 .titolo p {
     font-size: 16pt;
@@ -100,6 +103,7 @@ header nav ul {
     text-align: center;
     margin-top: -100px;
 }
+
 p {
     color: white;
     font-size: 12pt;
@@ -147,18 +151,9 @@ p {
 
 }
 
-.lista {
-    display: flex;
-    gap: 30px;
 
-    align-items: top;
-}
 
-.lista a{
-    text-decoration: none;
-    color: white;
-    font-size: 16pt;   
-}
+
 
 
 .testo a:hover {
@@ -169,7 +164,65 @@ p {
     text-align: left;
     padding-top: 100px;
 }
-
+.bottoni {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+         grid-column: 1;
+         grid-row: 1;
+    line-height: normal;
+    font-size: 12pt;
+    margin-left: 30px;
+    
+}
+.bottoni a {
+    color: white;
+    text-decoration: none;
+    background-color: #3C3B6E;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;   
+}
+.bottoni1 {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+         grid-column: 2;
+         grid-row: 1;
+    line-height: normal;
+    font-size: 12pt;
+    margin-right: 30px;
+    
+}
+.bottoni1 a {
+    color: white;
+    text-decoration: none;
+    background-color: #3C3B6E;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;   
+}
+.bottoni2 {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+         grid-column: 1;
+         grid-row: 1;
+    line-height: normal;
+    font-size: 12pt;
+    margin-left: 100px;
+    justify-content: left;
+    
+    
+}
+.bottoni2 a {
+    color: white;
+    text-decoration: none;
+    background-color: #3C3B6E;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;   
+}
 .testo1 h3 {
     color: white;
     font-size: 36pt;
@@ -211,18 +264,7 @@ p {
 
 }
 
-.lista1 {
-    display: flex;
-    gap: 30px;
 
-    align-items: top;
-}
-
-.lista1 a{
-    text-decoration: none;
-    color: white;
-    font-size: 16pt;   
-}
 
 
 .testo1 a:hover {
@@ -311,12 +353,32 @@ footer nav ul {
     
     
 }
-
+@media (max-width: 1300px) {
+    
+    
+    
+    .bottoni {
+        font-size: 9pt;
+        gap:20px;
+    }
+    .bottoni1 {
+        font-size: 9pt;
+        gap:20px;
+    }
+    .bottoni2 {
+        font-size: 9pt;
+        gap:20px;
+    }
+   
+   
+}
 @media (max-width: 1120px) {
     
     .app {
         padding-left: 0px;
     }
+   
+   
    
 }
 @media (max-width: 1000px) {
@@ -337,6 +399,25 @@ footer nav ul {
     grid-row: 1;
     
     
+    }
+    .bottoni {
+       
+        grid-row: 2;
+        
+       justify-content: left;
+       padding-left: 60px;
+    }
+    .bottoni1 {
+       
+        grid-row: 2;
+        grid-column: 1;
+        padding-bottom: 40px;
+    }
+    .bottoni2 {
+       
+        grid-row: 2;
+        grid-column: 1;
+        padding-bottom: 40px;
     }
     .testo {
         grid-column: 1;
@@ -446,6 +527,26 @@ font-size: 30pt;
 footer {
     padding: 0;
 }
+.bottoni {
+    font-size: 8pt;
+    gap:10px;
+    
+    grid-row: 2;
+  
+  
+}
+.bottoni1 {
+    font-size: 8pt;
+    gap:10px;
+    
+    grid-row: 2;  
+}
+.bottoni2 {
+    font-size: 8pt;
+    gap:10px;
+    
+    grid-row: 2; 
+}
 }
 @media (max-width: 500px) {
    
@@ -454,7 +555,10 @@ footer {
         font-size: 10pt;
     }
    
-   
+    .bottoni {
+        padding: 10px 5px 10px 5px;
+        grid-row: 2; 
+    }
  .testo h3 {
 font-size: 25pt;
  }

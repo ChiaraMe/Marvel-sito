@@ -157,6 +157,7 @@ max-width: 270px;
     grid-column: 3;
    
 }
+
 .app {
     grid-row: 1;
     grid-column: 4;
@@ -208,6 +209,14 @@ footer nav ul {
     font-style: normal;
     
     
+}
+.conta  {
+    background-color:white;
+    border-radius: 5px;
+    padding: 0 8px 0 8px;
+}
+.conta a {
+    color: #3C3B6E;
 }
 @media (max-width: 1120px) {
     .margini {

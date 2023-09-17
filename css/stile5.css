@@ -89,7 +89,14 @@ header nav ul {
     margin-bottom: 2px;
 }
 
-    
+.MCU  {
+    background-color:white;
+    border-radius: 5px;
+    padding: 0 8px 0 8px;
+}
+.MCU a {
+    color: #3C3B6E;
+}
 
 
 
@@ -124,6 +131,10 @@ main h2 {
     background-color: #3C3B6E;
     padding: 10px 20px 10px 20px;
     border-radius: 10px;
+}
+.colore a {
+    background-color: white;
+    color: #3C3B6E;
 }
  p {
     color: white;
@@ -333,7 +344,10 @@ footer nav ul {
     .app {
         padding-left: 0px;
     }
-   
+    .bottoni {
+        font-size: 9pt;
+        gap:20px;
+    }
   
     
 }
@@ -442,8 +456,8 @@ footer nav ul {
     font-size: 12pt;
    }
    .bottoni {
-    font-size: 7pt;
-    gap: 20px;
+    font-size: 8pt;
+    gap: 10px;
    }
    header nav ul {
     font-size: 8pt;
@@ -466,10 +480,13 @@ footer {
 
 @media (max-width: 500px) {
     .bottoni {
-        font-size: 5pt;
+        font-size: 8pt;
     gap: 5px;
+    padding-top: 0;
     }
-    
+    .bottoni a {
+        padding:  10px 10px 10px 10px;
+    }
     .contatti nav ul {
         gap: 25px;
         font-size: 10pt;

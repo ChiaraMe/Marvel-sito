@@ -91,9 +91,12 @@ header nav ul {
     margin-bottom: 2px;
 }
 .fumetti  {
-    background-color:rgba(25, 25, 47, 1);
+    background-color:white;
     border-radius: 5px;
     padding: 0 8px 0 8px;
+}
+.fumetti a {
+    color: #3C3B6E;
 }
     
 
@@ -353,7 +356,7 @@ footer nav ul {
     }
    
    .bottoni {
-    font-size: 7pt;
+    font-size: 10pt;
     gap: 20px;
    }
    header nav ul {
@@ -399,8 +402,11 @@ footer {
 }
 @media (max-width: 500px) {
     .bottoni {
-        font-size: 5pt;
+        font-size: 8pt;
     gap: 5px;
+    }
+    .bottoni a {
+        padding:  10px 10px 10px 10px;
     }
     
     
