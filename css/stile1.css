@@ -129,7 +129,7 @@ p {
     margin: auto;
     padding-top: 180px;
     padding-bottom: 180px;
-    gap: 122px;
+    
     align-items: center;
 }
 .testo {
@@ -156,31 +156,34 @@ p {
 
 
 
+
+
 .testo a:hover {
     color: white;
     text-decoration: underline;
 }
 .testo p {
     text-align: left;
-    padding-top: 100px;
+    padding-top: 25px;
+    padding-bottom: 50px;
 }
 .bottoni {
     list-style-type: none;
     display: flex;
     gap: 40px;
-    justify-content: center;
+    justify-content: flex-start;
          grid-column: 1;
          grid-row: 1;
     line-height: normal;
     font-size: 12pt;
-    margin-left: 30px;
+    margin-left: 100px;
     
 }
 .bottoni a {
     color: white;
     text-decoration: none;
     background-color: #3C3B6E;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 8px 10px 8px;
     border-radius: 10px;   
 }
 .bottoni1 {
@@ -273,7 +276,8 @@ p {
 }
 .testo1 p {
     text-align: left;
-    padding-top: 100px;
+    padding-top: 25px;
+    padding-bottom: 50px;
 }
 
 
@@ -353,13 +357,18 @@ footer nav ul {
     
     
 }
+.bottoni a:hover {
+    background-color: white;
+    color: #3C3B6E;
+}
 @media (max-width: 1300px) {
     
     
     
     .bottoni {
-        font-size: 9pt;
-        gap:20px;
+        font-size: 10pt;
+        gap: 7px;
+        
     }
     .bottoni1 {
         font-size: 9pt;
@@ -382,9 +391,7 @@ footer nav ul {
    
 }
 @media (max-width: 1000px) {
-   .margini {
-    margin-right:30px;
-   }
+   
     .titolo p {
         font-size: 14pt;
     }
@@ -397,15 +404,17 @@ footer nav ul {
     .content {
         grid-column: 1;
     grid-row: 1;
-    
-    
     }
+    
+    
     .bottoni {
        
         grid-row: 2;
-        
-       justify-content: left;
-       padding-left: 60px;
+        display: flex;
+        gap: 15px;
+        font-size: 12pt;
+        justify-items: stretch;
+       
     }
     .bottoni1 {
        
@@ -425,17 +434,8 @@ footer nav ul {
     max-width: 500px;
     
     }
-    .content img{
-        max-width: 80%;
-        width: 100%;
-        height: auto; 
-         
-    }
-    .content1 img{
-        max-width: 80%;
-        width: 100%;
-        height: auto;      
-    }
+    
+    
     .testo p {
         max-width: 500px;
        
@@ -490,32 +490,19 @@ footer nav ul {
 }
 @media (max-width: 700px) {
     p {
-        font-size: 9pt;
+        font-size: 10pt;
     }
  h3 {
 font-size: 30pt;
  }
- .lista a {
-    font-size: 13pt;
- }
- .lista1 a {
-    font-size: 13pt;
- }
+ 
  
  .titolo p {
     font-size: 11pt;
     padding-top: 30px;
  }
-   .content img {
-    max-width: 60%;
-    width: 100%;
-    height: auto;
-   }
-   .content1 img {
-    max-width: 60%;
-    width: 100%;
-    height: auto;
-   }
+   
+   
    header nav ul {
     font-size: 8pt;
     gap: 15px;
@@ -548,7 +535,7 @@ footer {
     grid-row: 2; 
 }
 }
-@media (max-width: 500px) {
+@media (max-width: 507px) {
    
     .contatti nav ul {
         gap: 25px;
@@ -558,8 +545,9 @@ footer {
     .bottoni {
         padding: 10px 0 10px 0;
         grid-row: 2; 
-        gap: 0;
-        font-size: 7pt;
+        gap: 30px;
+        font-size: 10pt;
+        display: grid;
       
     }
  .testo h3 {
@@ -581,15 +569,11 @@ font-size: 25pt;
  .titolo {
     padding-top: 30px;
  }
-   .content img {
-    max-width: 80%;
-    width: 100%;
-    height: auto;
-   }
-   .content1 img {
-    max-width: 80%;
-    width: 100%;
-    height: auto;
-   }
+
+ .testo p{
+    font-size: 10pt;
+ }
+   
+   
    
 }
