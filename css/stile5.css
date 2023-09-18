@@ -2,22 +2,27 @@ body {
     font-family: 'Days One', sans-serif;
     background-color: black;
     margin: auto;
-    max-width: 1440px;
+    max-width: auto;
 }
 img {
     max-width:100%;
     height: auto;
 }
-
+.imm img {
+    width: 100%;
+    height: auto;
+    max-width: auto;
+}
 
 .heroverse {
     width: 216px;
-    padding-top: 10px;
+    list-style-type: none;
 height: 52px;
 flex-shrink: 0;
 justify-content: center;
 margin: auto;
 object-fit: contain;
+padding-top: 10px;
 
 }
 header {
@@ -84,7 +89,14 @@ header nav ul {
     margin-bottom: 2px;
 }
 
-    
+.MCU  {
+    background-color:white;
+    border-radius: 5px;
+    padding: 0 8px 0 8px;
+}
+.MCU a {
+    color: #3C3B6E;
+}
 
 
 
@@ -100,6 +112,7 @@ main h2 {
     color: white;
     margin: auto;
     text-align: center;
+    
     
 }
 .bottoni {
@@ -119,6 +132,10 @@ main h2 {
     padding: 10px 20px 10px 20px;
     border-radius: 10px;
 }
+.colore a {
+    background-color: white;
+    color: #3C3B6E;
+}
  p {
     color: white;
     font-size: 12pt;
@@ -131,14 +148,17 @@ main h2 {
     margin: auto;
     grid-template-rows: 1fr ;
     padding-top: 168px;
+    align-items: center;
 }
 .content {
-    padding-top: 80px;
+    
     grid-column: 2;
     grid-row: 1;
     
 }
-
+.testo p {
+    line-height: 16pt;
+}
 .testo {
     grid-column: 1;
     grid-row: 1;
@@ -151,6 +171,7 @@ main h2 {
     margin: auto;
     grid-template-rows: 1fr ;
     padding-top: 168px;
+    
 }
 .titolo2 p {
     grid-column: 1;
@@ -167,6 +188,7 @@ main h2 {
     margin: auto;
     grid-template-rows: 1fr ;
     padding-top: 110px;
+    align-items: center;
 }
 
 .lista1 {
@@ -175,19 +197,19 @@ main h2 {
     grid-row: 1;
     
 }
+.lista1 ul {
+    color: white;
+}
+.lista2 ul {
+    color: white;
+}
+.lista3 ul {
+    color: white;
+}
 .container2 img {
     max-width: 100%;
     width: 100%;
-    padding-top: 200px;
-}
-.immagini1 {
-    grid-column: 3 ;
-    grid-row: 1;
     
-}
-.immagini2 {
-    grid-column:  4;
-    grid-row: 1;
 }
 
 .container3 {
@@ -198,6 +220,7 @@ main h2 {
     margin: auto;
     grid-template-rows: 1fr ;
     padding-top: 110px;
+    align-items: center;
 }
 
 .lista2 {
@@ -209,17 +232,9 @@ main h2 {
 .container3 img {
     max-width: 100%;
     width: 100%;
-    padding-top: 200px;
-}
-.immagini3 {
-    grid-column: 1 ;
-    grid-row: 1;
     
 }
-.immagini4 {
-    grid-column:  2;
-    grid-row: 1;
-}
+
 
 .container4 {
     display: grid;
@@ -230,13 +245,14 @@ main h2 {
     grid-template-rows: 1fr ;
     padding-top: 200px;
     padding-bottom: 180px;
+    align-items: center;
 }
 
 .lista3 {
     line-height: 26pt;
     grid-column: 1;
     grid-row: 1;
-    padding-top: 80px;
+    
     
 }
 .container4 img {
@@ -244,15 +260,7 @@ main h2 {
     width: 100%;
    
 }
-.immagini5 {
-    grid-column: 3 ;
-    grid-row: 1;
-    
-}
-.immagini6 {
-    grid-column:  4;
-    grid-row: 1;
-}
+
 .container5 {
     display: grid;
     grid-template-rows: 1fr;
@@ -263,10 +271,10 @@ main h2 {
     grid-column: 1;
     max-width: 216px;
         width: 100%;
-    
+     padding-right: 200px;
     height: 52px;
     flex-shrink: 0;
-    padding-right: 200px;
+    list-style-type: none;
     margin: auto;
     object-fit: contain;
 }
@@ -285,7 +293,7 @@ main h2 {
     height: auto;
     object-fit: contain;
     padding-left: 200px ;
-       
+    list-style-type:circle;  
     width: 100%;
     
     margin: auto;
@@ -293,6 +301,9 @@ main h2 {
     
     
     
+}
+.app li {
+    color: #3C3B6E;
 }
 
 footer{
@@ -304,6 +315,7 @@ width: 100%;
 height:auto;
 flex-shrink: 0;
 padding: 40px 90px 40px 90px;
+
 }
 footer a {
     text-decoration: none;
@@ -333,15 +345,18 @@ footer nav ul {
         margin: 0 5% 0 5%;
     }
     .titolo h1 {
-        font-size: 35px;
+        font-size: 35pt;
     }
     .titolo h2 {
-        font-size: 30px;
+        font-size: 30pt;
     }
     .app {
         padding-left: 0px;
     }
-   
+    .bottoni {
+        font-size: 9pt;
+        gap:20px;
+    }
   
     
 }
@@ -408,10 +423,10 @@ footer nav ul {
         padding-top: 30px;
     }
     .titolo h1 {
-        font-size: 35px;
+        font-size: 25pt;
     }
     .titolo h2 {
-        font-size: 30px;
+        font-size: 20pt;
     }
     footer nav ul {
         font-size: 10pt;
@@ -450,29 +465,48 @@ footer nav ul {
     font-size: 12pt;
    }
    .bottoni {
-    font-size: 9pt;
-    gap: 20px;
+    font-size: 8pt;
+    gap: 10px;
    }
    header nav ul {
     font-size: 8pt;
     gap: 15px;
    }
    .titolo h1 {
-    font-size: 25px;
+    font-size: 25pt;
 }
 .titolo h2 {
-    font-size: 20px;
+    font-size: 20pt;
 }
 .app{
     max-width: 3%;
 }
+footer {
+    padding: 0;
+}
 
 }
-@media (max-width: 500px) {   
-.imm img {
-    max-width: 600px;
-}
-header {
-    padding: 5px 250px 5px 0;
-}
+
+@media (max-width: 500px) {
+    .bottoni {
+        font-size: 8pt;
+    gap: 5px;
+    padding-top: 0;
+    }
+    .bottoni a {
+        padding:  10px 10px 10px 10px;
+    }
+    .contatti nav ul {
+        gap: 25px;
+        font-size: 10pt;
+    }
+    .titolo h1  {
+        font-size: 15pt;
+    }
+    .titolo h2 {
+        font-size: 10pt;
+    }
+    .titolo {
+        padding-top: 30px;
+    }
 }

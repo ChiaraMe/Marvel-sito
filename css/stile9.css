@@ -3,7 +3,6 @@ body {
     background-color: black;
     margin: auto;
     max-width: auto;
-   
 }
 img {
     max-width:100%;
@@ -14,10 +13,10 @@ img {
     height: auto;
     max-width: auto;
 }
+
 .heroverse {
     width: 216px;
    padding-top: 10px;
-   list-style-type: none;
 height: 52px;
 flex-shrink: 0;
 justify-content: center;
@@ -26,17 +25,6 @@ object-fit: contain;
 list-style-type: none;
 
 }
-.personaggi {
-    background-color:white;
-    border-radius: 5px;
-    padding: 0 8px 0 8px;
-}
-.personaggi a {
-    color: #3C3B6E;
-}
-  
-
-
 header {
 background: #3C3B6E;
 object-fit: contain;
@@ -100,19 +88,22 @@ header nav ul {
 .linea3 {
     margin-bottom: 2px;
 }
+.personaggi {
+    background-color:white;
+    border-radius: 5px;
+    padding: 0 8px 0 8px;
+}
+.personaggi a {
+    color: #3C3B6E;
+}
+    
+
 main h1 {
     font-size: 55px;
     color: white;
     margin: auto;
     text-align: center;
     margin-top: -100px;
-}
-main h2 {
-    font-size: 50px;
-    color: white;
-    margin: auto;
-    text-align: center;
-    
 }
 .bottoni {
     list-style-type: none;
@@ -122,6 +113,7 @@ main h2 {
     font-size: 14pt;        
     line-height: normal;
     padding-top: 134px;
+    padding-bottom: 168px;
     
 }
 .bottoni a {
@@ -130,63 +122,74 @@ main h2 {
     background-color: #3C3B6E;
     padding: 10px 20px 10px 20px;
     border-radius: 10px;
+    
 }
+
 .colore a {
     background-color: white;
     color: #3C3B6E;
 }
+p {
+    color: white;
+    font-size: 12pt;
+    line-height: 16pt;
+}    
 .container {
-    padding-top: 120px;
-    max-width: 1000px;
-    margin:auto
-}
-
-.container h2, .container p {
-    margin: 0;
-    padding: 0;
-    font-size: 18px;
-}
-
-.grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap:56px;
-    
-}
-
-.grid .item img {
-    height: 250px;
-    width: 100%;
-    object-fit: cover;
-    
-    
-}
-.text{
-    padding-top: 20px;
-}
-.container{
-    padding-top: 210px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 150px;
+    max-width: 1000px;
+    margin: auto;
+    grid-template-rows: 1fr ;
+    align-items: center;
     padding-bottom: 180px;
 }
-.grid .item .text{
-    background-color: #3C3B6E;
-    padding: 32px 16px;
+.content {
+    padding-top: 23px;
+    grid-column: 2;
+    grid-row: 1;
+    
 }
-.item img{
-    height: 250px;
+.content img {
+    max-width: 100%;
     width: 100%;
+    height: auto;
+}
+
+.testo {
+    grid-column: 1;
+    grid-row: 1;
+}
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 150px;
+    max-width: 1000px;
+    margin: auto;
+    grid-template-rows: 1fr ;
+    align-items: center;
+    padding-bottom: 180px;
+}
+.content1 {
+    padding-top: 23px;
+    grid-column: 1;
+    grid-row: 1;
     
 }
 
-.text h2 {
-    font-size: 12pt;
+.testo1 {
+    grid-column: 2;
+    grid-row: 1;
+}
+.content1 img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
 .container5 {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    
-    
 }
 .heroverse2 {
     grid-row: 1;
@@ -215,9 +218,7 @@ main h2 {
     height: auto;
     object-fit: contain;
     padding-left: 200px ;
-     list-style-type:circle;
-     
-
+    list-style-type:circle; 
     width: 100%;
     
     margin: auto;
@@ -264,52 +265,65 @@ footer nav ul {
     
 }
 @media (max-width: 1120px) {
-   
+    .margini {
+        margin: 0 5% 0 5%;
+    }
     .titolo h1 {
-        font-size: 35px;
+        font-size: 35pt;
     }
     .titolo h2 {
-        font-size: 30px;
+        font-size: 30pt;
     }
     .app {
         padding-left: 0px;
-    }
-}
-
-@media screen and (max-width :1000px) {
+    }  
     
-    .grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin: 0 100px 0 100px;
+}
+@media (max-width: 1000px) {
+    
+    .container {
+        grid-template-columns: 1fr ;
+        
+        
+        margin: 30px;
     }
-    .grid .item img{
-        height: auto;
+    .content {
+        grid-column: 1;
+    grid-row: 1;
+    }
+    .testo {
+        grid-column: 1;
+    grid-row: 2;
+    }
+    .content img {
+        max-width: 100%;
         width: 100%;
-        object-fit: cover;
+       
+    }
+    .container1 {
+        grid-template-columns: 1fr;
         
         
+        margin: 30px;
     }
-    .grid .item .text{
-        padding: 20px 10px;
+    .content1 {
+        grid-column: 1;
+    grid-row: 1;
     }
-    .text h2{
-        font-size: 9pt;
-    }
+    .testo1 {
+        grid-column: 1;
+    grid-row: 2;
+}
+.content1 img {
+    max-width: 100%;
+    width: 100%;
     
 }
-@media screen and (max-width :800px){
-    .grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        
+    .titolo h1 {
+        font-size: 25pt;
     }
-    
-    .grid .item .text {
-        width: 280px;
-    }
-    .item{
-        grid-column: 2;
+    .titolo h2 {
+        font-size: 20pt;
     }
     footer nav ul {
         font-size: 10pt;
@@ -338,11 +352,15 @@ footer nav ul {
     
 }
 
-
 }
+    
 @media (max-width: 700px) {
-   
-  
+    p {
+        font-size: 9pt;
+    }
+   .titolo2 p {
+    font-size: 12pt;
+   }
    .bottoni {
     font-size: 10pt;
     gap: 20px;
@@ -352,10 +370,10 @@ footer nav ul {
     gap: 15px;
    }
    .titolo h1 {
-    font-size: 25px;
+    font-size: 25pt;
 }
 .titolo h2 {
-    font-size: 20px;
+    font-size: 20pt;
 }
 .app{
     max-width: 3%;
@@ -363,38 +381,19 @@ footer nav ul {
 footer {
     padding: 0;
 }
+.content img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+.content1 img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
 }
 
-@media screen and (max-width :500px){
-    .grid{
-        display: grid;
-        grid-template-columns: 1fr;
-        margin-right: 200px;
-        
-        
-    }
-    .item{
-        grid-column: 1;
-    }
-    .grid .item .text{
-        width: 200px;
-    }
-    .grid .item img{
-        height: auto;
-        width: 100%;
-        object-fit: cover;
-        
-        
-    }
-    .titolo h1  {
-        font-size: 15pt;
-    }
-    .titolo h2 {
-        font-size: 10pt;
-    }
-    .titolo {
-        padding-top: 30px;
-    }
+@media (max-width: 500px) {
     .bottoni {
         font-size: 8pt;
     gap: 5px;
@@ -403,7 +402,7 @@ footer {
     .bottoni a {
         padding:  10px 10px 10px 10px;
     }
-    
+  
     .contatti nav ul {
         gap: 25px;
         font-size: 10pt;
@@ -417,9 +416,5 @@ footer {
     .titolo {
         padding-top: 30px;
     }
-}
 
-    
-    
-    
-    
+}

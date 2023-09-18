@@ -1,0 +1,579 @@
+body {
+    font-family: 'Days One', sans-serif;
+    background-color: white;
+    margin: auto;
+    max-width: auto;
+}
+img {
+    max-width:100%;
+    height: auto;
+}
+.imm img {
+    width: 100%;
+    height: auto;
+    max-width: auto;
+}
+
+.heroverse {
+    width: 216px;
+   padding-top: 10px;
+height: 52px;
+flex-shrink: 0;
+justify-content: center;
+margin: auto;
+object-fit: contain;
+list-style-type: none;
+
+}
+header {
+background: #3C3B6E;
+object-fit: contain;
+margin: 0;
+max-width:99%;
+width: 100%;
+height:auto;
+flex-shrink: 0;
+
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+header {
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   
+    margin: 0%;
+}
+
+header p {
+    margin: 0;
+       
+}
+
+header nav ul {
+    margin:0;
+    padding: 0;
+    padding-top: 15px;
+    list-style-type: none;
+    display: flex;
+    gap: 56px;
+    justify-content: center;
+    font-size: 12px;
+    font-style: normal;
+    
+    line-height: normal
+}
+ header hr {
+    width:auto;
+    margin-top: 20px;
+   
+}
+.linea1 {
+    box-shadow: 0px 4px 10px 2px black;
+   
+}
+.linea2 {
+    margin-top: 3px;
+    
+}
+.linea3 {
+    margin-bottom: 2px;
+}
+.home  {
+    background-color:white;
+    border-radius: 5px;
+    padding: 0 8px 0 8px;
+}
+.home a {
+    color: #3C3B6E;
+}
+.titolo p {
+    font-size: 16pt;
+    color: white;
+    margin: auto;
+    text-align: center;
+    margin-top: -100px;
+}
+
+p {
+    color: white;
+    font-size: 12pt;
+    
+} 
+.testo h3 {
+    color: white;
+    font-size: 36pt;
+    
+    
+    
+}
+.testo a{
+    text-decoration: none;
+    color: white;
+    font-size: 16pt;   
+}
+.container{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    margin: auto;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    
+    align-items: center;
+}
+.testo {
+    grid-column: 1;
+    grid-row: 1;
+    
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.content {
+    grid-column: 2;
+    grid-row: 1;
+    
+}
+.content img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+
+
+
+
+
+.testo a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.testo p {
+    text-align: left;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.bottoni {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    justify-content: flex-start;
+         grid-column: 1;
+         grid-row: 1;
+    line-height: normal;
+    font-size: 12pt;
+    margin-left: 100px;
+    
+}
+.bottoni a {
+    color: white;
+    text-decoration: none;
+    background-color: #3C3B6E;
+    padding: 10px 8px 10px 8px;
+    border-radius: 10px;   
+}
+.bottoni1 {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+         grid-column: 2;
+         grid-row: 1;
+    line-height: normal;
+    font-size: 12pt;
+    margin-right: 30px;
+    
+}
+.bottoni1 a {
+    color: white;
+    text-decoration: none;
+    background-color: #3C3B6E;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;   
+}
+.bottoni2 {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+         grid-column: 1;
+         grid-row: 1;
+    line-height: normal;
+    font-size: 12pt;
+    margin-left: 100px;
+    justify-content: left;
+    
+    
+}
+.bottoni2 a {
+    color: white;
+    text-decoration: none;
+    background-color: #3C3B6E;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;   
+}
+.testo1 h3 {
+    color: white;
+    font-size: 36pt;
+    
+    
+    
+}
+.testo1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 16pt;   
+}
+.container1{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    margin: auto;
+    
+    gap: 122px;
+    align-items: center;
+}
+.testo1 {
+    grid-column: 2;
+    grid-row: 1;
+    
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.content1 {
+    grid-column: 1;
+    grid-row: 1;
+    
+}
+.content1 img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+
+.testo1 a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.testo1 p {
+    text-align: left;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+
+.container5 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.heroverse2 {
+    grid-row: 1;
+    grid-column: 1;
+    max-width: 216px;
+        width: 100%;
+     padding-right: 200px;
+    height: 52px;
+    flex-shrink: 0;
+    list-style-type: none;
+    margin: auto;
+    object-fit: contain;
+}
+.contatti  {
+    grid-row: 1;
+   
+    grid-column: 3;
+   
+}
+.app {
+    grid-row: 1;
+    grid-column: 4;
+    display: flex;
+    gap: 25px;
+    max-width: 8%;
+    height: auto;
+    object-fit: contain;
+    padding-left: 200px ;
+    list-style-type:circle;
+    width: 100%;
+    
+    margin: auto;
+    flex-shrink: 0;   
+}
+.app li {
+    color: #3C3B6E;
+}
+
+footer{
+background: #3C3B6E;
+object-fit: contain;
+margin: 0;
+max-width: fit-content;
+width: 100%;
+height:auto;
+flex-shrink: 0;
+padding: 40px 90px 40px 90px;
+
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+footer nav ul {
+    margin:0;
+    padding: 0;
+    padding-top: 18px;
+    list-style-type:none;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    font-size: 16px;
+    font-style: normal;
+    
+    
+}
+.bottoni a:hover {
+    background-color: white;
+    color: #3C3B6E;
+}
+@media (max-width: 1300px) {
+    
+    
+    
+    .bottoni {
+        font-size: 10pt;
+        gap: 7px;
+        
+    }
+    .bottoni1 {
+        font-size: 9pt;
+        gap:20px;
+    }
+    .bottoni2 {
+        font-size: 9pt;
+        gap:20px;
+    }
+   
+   
+}
+@media (max-width: 1120px) {
+    
+    .app {
+        padding-left: 0px;
+    }
+   
+   
+   
+}
+@media (max-width: 1000px) {
+   
+    .titolo p {
+        font-size: 14pt;
+    }
+    .container {
+        grid-template-columns: 1fr;
+        row-gap: 0;
+       
+        margin: 30px;
+    }
+    .content {
+        grid-column: 1;
+    grid-row: 1;
+    }
+    
+    
+    .bottoni {
+       
+        grid-row: 2;
+        display: flex;
+        gap: 15px;
+        font-size: 12pt;
+        justify-items: stretch;
+       
+    }
+    .bottoni1 {
+       
+        grid-row: 2;
+        grid-column: 1;
+        padding-bottom: 40px;
+    }
+    .bottoni2 {
+       
+        grid-row: 2;
+        grid-column: 1;
+        padding-bottom: 40px;
+    }
+    .testo {
+        grid-column: 1;
+    grid-row: 2;
+    max-width: 500px;
+    
+    }
+    
+    
+    .testo p {
+        max-width: 500px;
+       
+    }
+    .testo1 p {
+        max-width: 500px;
+       
+    }
+    
+    .container1 {
+        grid-template-columns: 1fr;
+       
+        row-gap: 0;
+        margin: 30px;
+    }
+    .content1 {
+        grid-column: 1;
+    grid-row: 1;
+    }
+    .testo1 {
+        grid-column: 1;
+    grid-row: 2;
+    max-width: 500px;
+    }
+    footer nav ul {
+        font-size: 10pt;
+    }
+.container5 {
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+.heroverse2 {
+    grid-column: 1;
+    grid-row: 1;
+}
+.app {
+    grid-column: 1;
+    grid-row: 3;
+    max-width: 2%;
+    padding-right: 330px;
+    padding-top: 30px;
+    
+}
+.contatti {
+    grid-column:1 ;
+    grid-row: 2;
+    padding-right: 200px;
+    padding-top: 30px;
+    
+}
+}
+@media (max-width: 700px) {
+    p {
+        font-size: 10pt;
+    }
+ h3 {
+font-size: 30pt;
+ }
+ 
+ 
+ .titolo p {
+    font-size: 11pt;
+    padding-top: 30px;
+ }
+   
+   
+   header nav ul {
+    font-size: 8pt;
+    gap: 15px;
+   }
+   
+.app{
+    max-width: 3%;
+}
+footer {
+    padding: 0;
+}
+.bottoni {
+    font-size: 8pt;
+    gap:10px;
+    
+    grid-row: 2;
+  
+  
+}
+.bottoni1 {
+    font-size: 8pt;
+    gap:10px;
+    
+    grid-row: 2;  
+}
+.bottoni2 {
+    font-size: 8pt;
+    gap:10px;
+    
+    grid-row: 2; 
+}
+}
+@media (max-width: 507px) {
+   
+    .contatti nav ul {
+        gap: 25px;
+        font-size: 10pt;
+    }
+   
+    .bottoni {
+        padding: 10px 0 10px 0;
+        grid-row: 2; 
+        gap: 30px;
+        font-size: 10pt;
+        display: grid;
+      
+    }
+ .testo h3 {
+font-size: 25pt;
+ }
+ .testo1 h3 {
+    font-size: 25pt;
+     }
+
+ .testo{
+    max-width: 250px;
+    padding-top: 50px;
+ }
+
+ .titolo p {
+    font-size: 11pt;
+    
+ }
+ .titolo {
+    padding-top: 30px;
+ }
+
+ .testo p{
+    font-size: 10pt;
+ }
+   
+   
+   
+}
