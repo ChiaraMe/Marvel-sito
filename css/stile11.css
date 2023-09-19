@@ -14,18 +14,41 @@ img {
     height: auto;
     max-width: auto;
 }
+
 .heroverse {
-    width: 216px;
-   padding-top: 10px;
-   list-style-type: none;
-height: 52px;
+    width: 136px;
+   
+
 flex-shrink: 0;
 justify-content: center;
-margin: auto;
+
 object-fit: contain;
 list-style-type: none;
 
 }
+header {
+    background-color:#3C3B6E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    color: #fff;
+}
+
+header nav ul {
+    margin:0;
+    padding: 0;
+    
+    list-style-type: none;
+    display: flex;
+    gap: 56px;
+    justify-content: center;
+    font-size: 12px;
+    font-style: normal;
+    
+    line-height: normal
+}
+
 .personaggi {
     background-color:white;
     border-radius: 5px;
@@ -37,16 +60,7 @@ list-style-type: none;
   
 
 
-header {
-background: #3C3B6E;
-object-fit: contain;
-margin: 0;
-max-width:99%;
-width: 100%;
-height:auto;
-flex-shrink: 0;
 
-}
 header a {
     text-decoration: none;
     color: white;
@@ -71,19 +85,7 @@ header p {
        
 }
 
-header nav ul {
-    margin:0;
-    padding: 0;
-    padding-top: 15px;
-    list-style-type: none;
-    display: flex;
-    gap: 56px;
-    justify-content: center;
-    font-size: 12px;
-    font-style: normal;
-    
-    line-height: normal
-}
+
  header hr {
     width:auto;
     margin-top: 20px;
