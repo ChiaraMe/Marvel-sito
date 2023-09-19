@@ -11,30 +11,14 @@ img {
 .imm img {
     width: 100%;
     height: auto;
-    max-width: auto;
+    
+}
+.heroverse{
+    width: 136px;
 }
 
-.heroverse {
-    width: 216px;
-   padding-top: 10px;
-height: 52px;
-flex-shrink: 0;
-justify-content: center;
-margin: auto;
-object-fit: contain;
-list-style-type: none;
 
-}
-header {
-background: #3C3B6E;
-object-fit: contain;
-margin: 0;
-max-width:99%;
-width: 100%;
-height:auto;
-flex-shrink: 0;
 
-}
 header a {
     text-decoration: none;
     color: white;
@@ -45,53 +29,14 @@ header a:hover {
     text-decoration: underline;
 }
 
-header {
-    
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-   
-    margin: 0%;
-}
 
-header p {
-    margin: 0;
-       
-}
-
-header nav ul {
-    margin:0;
-    padding: 0;
-    padding-top: 15px;
-    list-style-type: none;
-    display: flex;
-    gap: 56px;
-    justify-content: center;
-    font-size: 12px;
-    font-style: normal;
-    
-    line-height: normal
-}
- header hr {
-    width:auto;
-    margin-top: 20px;
-   
-}
-.linea1 {
-    box-shadow: 0px 4px 10px 2px black;
-   
-}
-.linea2 {
-    margin-top: 3px;
-    
-}
-.linea3 {
-    margin-bottom: 2px;
-}
 .home  {
     background-color:white;
     border-radius: 5px;
     padding: 0 8px 0 8px;
+}
+.home a:hover{
+    color:#3C3B6E;
 }
 .home a {
     color: #3C3B6E;
@@ -288,16 +233,8 @@ p {
     
 }
 .heroverse2 {
-    grid-row: 1;
-    grid-column: 1;
-    max-width: 216px;
-        width: 100%;
-     padding-right: 200px;
-    height: 52px;
-    flex-shrink: 0;
-    list-style-type: none;
-    margin: auto;
-    object-fit: contain;
+    width: 136px;
+    padding-right: 168px;
 }
 .contatti  {
     grid-row: 1;
@@ -378,6 +315,10 @@ footer nav ul {
         font-size: 9pt;
         gap:20px;
     }
+    
+    
+    
+
    
    
 }
@@ -391,7 +332,13 @@ footer nav ul {
    
 }
 @media (max-width: 1000px) {
-   
+    .imm img{
+    
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        object-position: bottom;
+    }
     .titolo p {
         font-size: 14pt;
     }
@@ -466,7 +413,7 @@ footer nav ul {
 .container5 {
     grid-template-columns: 1fr ;
     grid-template-rows: 1fr 1fr 1fr;
-    
+    display: flex;
 }
 .heroverse2 {
     grid-column: 1;
@@ -476,15 +423,15 @@ footer nav ul {
     grid-column: 1;
     grid-row: 3;
     max-width: 2%;
-    padding-right: 330px;
-    padding-top: 30px;
+    padding-right: 25px;
+    
     
 }
 .contatti {
     grid-column:1 ;
     grid-row: 2;
-    padding-right: 200px;
-    padding-top: 30px;
+    padding-right: 85px;
+    padding-top: 19px;
     
 }
 }
@@ -496,10 +443,17 @@ footer nav ul {
 font-size: 30pt;
  }
  
- 
+ .testo{
+    margin-left: 10px;
+ }
+ .testo1{
+    margin-left: 10px;
+ }
  .titolo p {
     font-size: 11pt;
     padding-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
  }
    
    
@@ -517,7 +471,7 @@ footer {
 .bottoni {
     font-size: 8pt;
     gap:10px;
-    
+    margin-left: 10px;
     grid-row: 2;
   
   
@@ -534,6 +488,17 @@ footer {
     
     grid-row: 2; 
 }
+.imm img{
+    
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: bottom;
+}
+.contatti{
+    position: absolute;
+    
+}
 }
 @media (max-width: 507px) {
    
@@ -548,6 +513,7 @@ footer {
         gap: 30px;
         font-size: 10pt;
         display: grid;
+        margin-left: 10px;
       
     }
  .testo h3 {
@@ -559,12 +525,13 @@ font-size: 25pt;
 
  .testo{
     max-width: 250px;
-    padding-top: 50px;
+    margin-left: 10px;
  }
 
  .titolo p {
     font-size: 11pt;
-    
+    margin-left: 50px;
+    margin-right: 50px;
  }
  .titolo {
     padding-top: 30px;
@@ -573,7 +540,160 @@ font-size: 25pt;
  .testo p{
     font-size: 10pt;
  }
-   
-   
+ 
+.heroverse{
+    margin-left: 10px;
+    
+}   
+.container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.testo1{
+    margin-left: 10px;
+}
+.contatti{
+    position: absolute;
+
+}
+.app{
+    padding-left: 10px;
+}
    
 }
+header {
+    background-color:#3C3B6E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15px;
+    color: #fff;
+    font-size: 10pt;
+  
+  }
+  
+
+  
+  nav {
+    margin:0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    position: relative;
+  }
+  
+  nav ul a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hamburger-lines {
+    display: block;
+    height: 26px;
+    width: 32px;
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0;
+  }
+  
+  .hamburger-lines .line {
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 10px;
+    background: #fff;
+  }
+  
+  .hamburger-lines .line1 {
+    transform-origin: 0% 0%;
+    transition: transform 0.4s ease-in-out;
+  }
+  .hamburger-lines .line2 {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .hamburger-lines .line3 {
+    transform-origin: 0% 100%;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+    transform: rotate(45deg);
+  }
+  
+  input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+    transform: scaleY(0);
+  }
+  
+  input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+    transform: rotate(-45deg);
+  }
+  
+  .checkbox {
+    position: absolute;
+    display: none;
+    height: 32px;
+    width: 32px;
+    top: 16x;
+    right: 16px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .checkbox {
+      display: block;
+    }
+    nav ul {
+      gap: 10px;
+      flex-direction: column;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      background-color:#3C3B6E;
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    input[type="checkbox"]:checked ~ nav ul {
+      opacity: 100;
+    }
+  
+    .hamburger-lines {
+      opacity: 100;
+    }
+  
+    ul li {
+      display: block;
+    }
+  
+     .submenu {
+      width: 100%;
+      display: block;
+      position: relative;
+      padding: 10px 0;
+      margin: 0;
+     }
+  }
