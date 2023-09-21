@@ -117,6 +117,12 @@ main h2 {
     text-align: center;
     
 }
+
+.bottoni a:hover{
+    background-color: #fff;
+    color: #3C3B6E;
+}
+
 .bottoni {
     list-style-type: none;
     display: flex;

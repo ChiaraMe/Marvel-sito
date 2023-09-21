@@ -105,6 +105,12 @@ main h1 {
     text-align: center;
     margin-top: -100px;
 }
+
+.bottoni a:hover{
+    background-color: #fff;
+    color: #3C3B6E;
+}
+
 .bottoni {
     list-style-type: none;
     display: flex;
